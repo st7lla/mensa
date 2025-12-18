@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: oklch(0.99 0.002 106.42);
+  --foreground: oklch(0.198 0.012 49.78);
+  --card: oklch(0.99 0.002 106.42);
+  --card-foreground: oklch(0.198 0.012 49.78);
+  --popover: oklch(0.99 0.002 106.42);
+  --popover-foreground: oklch(0.198 0.012 49.78);
+  --primary: oklch(0.318 0.054 158.72);
+  --primary-foreground: oklch(0.99 0.002 106.42);
+  --secondary: oklch(0.958 0.008 85.23);
+  --secondary-foreground: oklch(0.198 0.012 49.78);
+  --muted: oklch(0.958 0.008 85.23);
+  --muted-foreground: oklch(0.558 0.014 64.35);
+  --accent: oklch(0.768 0.092 53.47);
+  --accent-foreground: oklch(0.99 0.002 106.42);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.99 0.002 106.42);
+  --border: oklch(0.918 0.006 94.18);
+  --input: oklch(0.958 0.008 85.23);
+  --ring: oklch(0.318 0.054 158.72);
+  --radius: 0.75rem;
+  --sidebar: oklch(0.985 0.004 106.42);
+  --sidebar-foreground: oklch(0.198 0.012 49.78);
+  --sidebar-border: oklch(0.918 0.006 94.18);
+}
